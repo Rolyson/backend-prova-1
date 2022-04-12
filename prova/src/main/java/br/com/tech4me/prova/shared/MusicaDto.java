@@ -1,12 +1,21 @@
 package br.com.tech4me.prova.shared;
 
 public class MusicaDto {
+  private String id;
   private String titulo;
   private String artista;
   private String album;
   private String genero;
   private int anoLancamento;
   private String compositor;
+
+  public String getId() {
+    return id;
+  }
+
+  public void setId(String id) {
+    this.id = id;
+  }
 
   public String getTitulo() {
     return titulo;
